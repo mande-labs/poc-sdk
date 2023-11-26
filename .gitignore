@@ -1,0 +1,23 @@
+# Dependency directory
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Environment files
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.code-workspace
+*.sublime*
+*.swp
+*.swo
+*.sln
+*.user
+*.pdb
+*.userprefs
