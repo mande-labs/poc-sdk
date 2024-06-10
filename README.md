@@ -12,7 +12,7 @@ The Proof of Credibility (POC) SDK is a comprehensive framework designed for dec
 
 - **Scalable and Upgradable**: Thanks to the Diamond standard, the SDK is highly scalable and can be upgraded without disrupting the existing ecosystem.
 
-## Installation
+## Installation [Not public yet]
 
 To install the POC SDK, use npm:
 
