@@ -12,12 +12,12 @@ The Proof of Credibility (POC) SDK is a comprehensive framework designed for dec
 
 - **Scalable and Upgradable**: Thanks to the Diamond standard, the SDK is highly scalable and can be upgraded without disrupting the existing ecosystem.
 
-## Installation
+## Installation [Not public yet]
+You may check progress on this branch - [v0](https://github.com/mande-labs/poc-sdk/tree/v0)
 
 To install the POC SDK, use npm:
 
 ```bash
-
 npm install poc-sdk
 
 ```
@@ -25,7 +25,6 @@ npm install poc-sdk
 Or, if you prefer using yarn:
 
 ```bash
-
 yarn add poc-sdk
 
 ```
@@ -37,7 +36,6 @@ Here's a quick guide to get started with the POC SDK:
 ### Initialize the SDK
 
 ```typescript
-
 import { POC } from 'poc-sdk';
 
 const poc = new POC();
@@ -47,7 +45,6 @@ const poc = new POC();
 ### Add Modules
 
 ```typescript
-
 // Example of adding a zk (Zero-Knowledge) module
 
 const zkModule = new ZKModule();
@@ -61,7 +58,6 @@ poc.addModule('zk', zkModule);
 ### Use Modules
 
 ```typescript
-
 const zk = poc.getModule('zk') as IZKModule;
 
 // Use the zk module methods as required
